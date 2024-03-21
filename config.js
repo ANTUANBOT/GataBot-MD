@@ -10,16 +10,10 @@ import { es as esDefault, en as enDefault } from "./lib/multi-language/_default.
 import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// [ES] > Agrega el número que será Bot y los que serán propietarios.
+// [ES] > 51973965511.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["573026191480", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-["593968585383"], 
-["5492266613038"], 
-["593968263524"],
-["33760536110"],
-["51948705559"],
-["573147616444"]]
+["573026191480", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝘼𝙣𝙩𝙪𝙖𝙣𝘽𝙤𝙩-𝙈𝘿 💖🐈
 
 global.mods = []
 global.prems = []
@@ -37,21 +31,21 @@ global.keepAliveRender = 0; //Solo valores: 1 o 0
 // ❰❰ methodCode ❱❱
 // [ES] > Agregue el número del Bot en "botNumberCode" si desea recibir código de 8 dígitos sin registrar el número en la consola.
 // [EN] > Add the Bot number in "botNumberCode" if you want to receive 8-digit code without registering the number in the console.
-global.botNumberCode = "" //example: "+59309090909"
+global.botNumberCode = "" //example: "+51973965511"
 global.confirmCode = "" // No tocar esto : Do not touch this line
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰❰ Multi Idioma Dinámico : Dynamic Multi Language (MID-GB) ❱❱
+// ❰❰ Multi Idioma Dinámico : Dynamic Multi Language (MID-AB) ❱❱
 // [ES] > Agregué uno de los idiomas disponibles para el Bot en "mid".
-// [EN] > I added one of the languages available for the Bot in "mid".
+// 
 
 // ❰❰ IDIOMAS DISPONIBLES : AVAILABLE LANGUAGES ❱❱
 // Español 👉 es           
-// English 👉 en
-global.lenguajeGB = es
+// 
+global.lenguajeAB = es
 global.mid = esDefault
-global.version_language = '1.0 (MID-GB)'
+global.version_language = '1.0 (MID-AB)'
 
 // [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
 // [EN] > If "default_language" is empty, your default language will be Spanish or the language that each user has selected at the time of registration will be used.
@@ -116,9 +110,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["593968263524", 'Gata Dios 💻', 1], 
-["5492266466080", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["5521989092076", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
+["51973965511", 'Antu Dios 💻', 1], 
+["51947311549", 'Alessita Dios 💻', 1],  
+
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -126,8 +120,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
-global.author = "𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.packname = "𝘼𝙣𝙩𝙪𝙖𝙣𝘽𝙤𝙩-𝙈𝘿 🐈"
+global.author = "𝘼𝙣𝙩𝙪𝙖𝙣 𝘿𝙞𝙤𝙨"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -135,7 +129,7 @@ global.author = "𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.gt = "𝘼𝙣𝙩𝙪𝙖𝙣𝘽𝙤𝙩-𝙈𝘿"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -161,9 +155,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
-global.nomorown = "593993684821"
+global.wm = "𝘼𝙣𝙩𝙪𝙖𝙣𝘽𝙤𝙩-𝙈𝘿 : 𝘼𝙣𝙩𝙪𝙖𝙣 𝘿𝙞𝙤𝙨"
+global.igfg = "𝘼𝙣𝙩𝙪𝙖𝙣𝘽𝙤𝙩-𝙈𝘿"
+global.nomorown = "51973965511"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -217,83 +211,83 @@ emoticon(string) {
 string = string.toLowerCase();
 let emot = {
       level: '🧬 Nivel : Level',
-      limit: lenguajeGB.eDiamante(),
-      exp: lenguajeGB.eExp(),
+      limit: lenguajeAB.eDiamante(),
+      exp: lenguajeAB.eExp(),
       bank: '🏦 Banco : Bank',
-      diamond: lenguajeGB.eDiamantePlus(),
+      diamond: lenguajeAB.eDiamantePlus(),
       health: '❤️ Salud : Health',
-      kyubi: lenguajeGB.eMagia(),
-      joincount: lenguajeGB.eToken(),
-      emerald: lenguajeGB.eEsmeralda(),
-      stamina: lenguajeGB.eEnergia(),
+      kyubi: lenguajeAB.eMagia(),
+      joincount: lenguajeAB.eToken(),
+      emerald: lenguajeAB.eEsmeralda(),
+      stamina: lenguajeAB.eEnergia(),
       role: '💪 Rango | Role',
       premium: '🎟️ Premium',
       pointxp: '📧 Puntos Exp : Point Xp',
-      gold: lenguajeGB.eOro(),
+      gold: lenguajeAB.eOro(),
       
-      trash: lenguajeGB.eBasura(),
+      trash: lenguajeAB.eBasura(),
       crystal: '🔮 Cristal : Crystal',
       intelligence: '🧠 Inteligencia : Intelligence',
-      string: lenguajeGB.eCuerda(),
+      string: lenguajeAB.eCuerda(),
       keygold: '🔑 Llave de Oro : Key Gold',
       keyiron: '🗝️ Llave de Hierro : Key Iron',
-      emas: lenguajeGB.ePinata(),
+      emas: lenguajeAB.ePinata(),
       fishingrod: '🎣 Caña de Pescar : Fishing Rod',
       gems: '🍀 Gemas : Gemas',
       magicwand: '⚕️ Varita Mágica : Magic Wand',
       mana: '🪄 Hechizo : Spell',
       agility: '🤸‍♂️ Agilidad : Agility',
       darkcrystal: '♠️ Cristal Oscuro : Dark Glass',
-      iron: lenguajeGB.eHierro(),
-      rock: lenguajeGB.eRoca(),
-      potion: lenguajeGB.ePocion(),
+      iron: lenguajeAB.eHierro(),
+      rock: lenguajeAB.eRoca(),
+      potion: lenguajeAB.ePocion(),
       superior: '💼 Superior : Superior',
       robo: '🚔 Robo : Robo',
       upgrader: '🧰 Aumentar Mejora : Upgrade',
-      wood: lenguajeGB.eMadera(),
+      wood: lenguajeAB.eMadera(),
       
       strength: '🦹‍ ♀️ Fuerza : Strength',
       arc: '🏹 Arco : Arc',
       armor: '🥼 Armadura : Armor',
       bow: '🏹 Super Arco : Super Bow',
       pickaxe: '⛏️ Pico : Peak',
-      sword: lenguajeGB.eEspada(),
+      sword: lenguajeAB.eEspada(),
       
-      common: lenguajeGB.eCComun(),
-      uncoommon: lenguajeGB.ePComun(),
-      mythic: lenguajeGB.eCMistica(),
-      legendary: lenguajeGB.eClegendaria(),
-      petFood: lenguajeGB.eAMascots(), //?
-      pet: lenguajeGB.eCMascota(),//?
+      common: lenguajeAB.eCComun(),
+      uncoommon: lenguajeAB.ePComun(),
+      mythic: lenguajeAB.eCMistica(),
+      legendary: lenguajeAB.eClegendaria(),
+      petFood: lenguajeAB.eAMascots(), //?
+      pet: lenguajeAB.eCMascota(),//?
       
-      bibitanggur: lenguajeGB.eSUva(), bibitapel: lenguajeGB.eSManzana(), bibitjeruk: lenguajeGB.eSNaranja(), bibitmangga: lenguajeGB.eSMango(), bibitpisang: lenguajeGB.eSPlatano(),
+      bibitanggur: lenguajeAB.eSUva(), bibitapel: lenguajeAB.eSManzana(), bibitjeruk: lenguajeAB.eSNaranja(), bibitmangga: lenguajeAB.eSMango(), bibitpisang: lenguajeAB.eSPlatano(),
       
       ayam: '🐓 Pollo : Chicken',
       babi: '🐖 Puerco : Pig',
       Jabali: '🐗 Jabalí : Wild Boar',
       bull: '🐃 Toro : Bull',    
       buaya: '🐊 Cocodrilo : Alligator',    
-      cat: lenguajeGB.eGato(),    
-      centaur: lenguajeGB.eCentauro(),
+      cat: lenguajeAB.eGato(),    
+      centaur: lenguajeAB.eCentauro(),
       chicken: '🐓 Pollo : Chicken',
       cow: '🐄 Vaca : Cow', 
-      dog: lenguajeGB.ePerro(),
-      dragon: lenguajeGB.eDragon(),
+      dog: lenguajeAB.ePerro(),
+      dragon: lenguajeAB.eDragon(),
       elephant: '🐘 Elefante : Elephant',
-      fox: lenguajeGB.eZorro(),
+      fox: lenguajeAB.eZorro(),
       giraffe: '🦒 Jirafa : Giraffe',
-      griffin: lenguajeGB.eAve(), //Mascota : Griffin',
-      horse: lenguajeGB.eCaballo(),
+      griffin: lenguajeAB.eAve(), //Mascota : Griffin',
+      horse: lenguajeAB.eCaballo(),
       kambing: '🐐 Cabra : Goat',
       kerbau: '🐃 Búfalo : Buffalo',
       lion: '🦁 León : Lion',
-      money: lenguajeGB.eGataCoins(),
+      money: lenguajeAB.eGataCoins(),
       monyet: '🐒 Mono : Monkey',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente : Snake',
       phonix: '🕊️ Fénix : Phoenix',
       rhinoceros: '🦏 Rinoceronte : Rhinoceros',
-      wolf: lenguajeGB.eLobo(),
+      wolf: lenguajeAB.eLobo(),
       tiger: '🐅 Tigre : Tiger',
       cumi: '🦑 Calamar : Squid',
       udang: '🦐 Camarón : Shrimp',
@@ -346,35 +340,35 @@ global.rpgshop = { //Tienda
 emoticon(string) {
 string = string.toLowerCase();
 let emottt = {
-      exp: lenguajeGB.eExp(), limit: lenguajeGB.eDiamante(), diamond: lenguajeGB.eDiamantePlus(), joincount: lenguajeGB.eToken(),
-      emerald: lenguajeGB.eEsmeralda(), berlian: lenguajeGB.eJoya(), kyubi: lenguajeGB.eMagia(), gold: lenguajeGB.eOro(),
-      money: lenguajeGB.eGataCoins(), tiketcoin: lenguajeGB.eGataTickers(), stamina: lenguajeGB.eEnergia(),
+      exp: lenguajeAB.eExp(), limit: lenguajeAB.eDiamante(), diamond: lenguajeAB.eDiamantePlus(), joincount: lenguajeAB.eToken(),
+      emerald: lenguajeAB.eEsmeralda(), berlian: lenguajeAB.eJoya(), kyubi: lenguajeAB.eMagia(), gold: lenguajeAB.eOro(),
+      money: lenguajeAB.eGataCoins(), tiketcoin: lenguajeAB.eGataTickers(), stamina: lenguajeAB.eEnergia(),
             
-      potion: lenguajeGB.ePocion(), aqua: lenguajeGB.eAgua(), trash: lenguajeGB.eBasura(), wood: lenguajeGB.eMadera(),
-      rock: lenguajeGB.eRoca(), batu: lenguajeGB.ePiedra(), string: lenguajeGB.eCuerda(), iron: lenguajeGB.eHierro(),
-      coal: lenguajeGB.eCarbon(), botol: lenguajeGB.eBotella(), kaleng: lenguajeGB.eLata(), kardus: lenguajeGB.eCarton(),
+      potion: lenguajeAB.ePocion(), aqua: lenguajeAB.eAgua(), trash: lenguajeAB.eBasura(), wood: lenguajeAB.eMadera(),
+      rock: lenguajeAB.eRoca(), batu: lenguajeAB.ePiedra(), string: lenguajeAB.eCuerda(), iron: lenguajeAB.eHierro(),
+      coal: lenguajeAB.eCarbon(), botol: lenguajeAB.eBotella(), kaleng: lenguajeAB.eLata(), kardus: lenguajeAB.eCarton(),
       
-      eleksirb: lenguajeGB.eEletric(), emasbatang: lenguajeGB.eBarraOro(), emasbiasa: lenguajeGB.eOroComun(), rubah: lenguajeGB.eZorroG(),
-      sampah: lenguajeGB.eBasuraG(), serigala: lenguajeGB.eLoboG(), kayu: lenguajeGB.eMaderaG(), sword: lenguajeGB.eEspada(),
-      umpan: lenguajeGB.eCarnada(), healtmonster: lenguajeGB.eBillete(), emas: lenguajeGB.ePinata(), pancingan: lenguajeGB.eGancho(),
-      pancing: lenguajeGB.eCanaPescar(),
+      eleksirb: lenguajeAB.eEletric(), emasbatang: lenguajeAB.eBarraOro(), emasbiasa: lenguajeAB.eOroComun(), rubah: lenguajeAB.eZorroG(),
+      sampah: lenguajeAB.eBasuraG(), serigala: lenguajeAB.eLoboG(), kayu: lenguajeAB.eMaderaG(), sword: lenguajeAB.eEspada(),
+      umpan: lenguajeAB.eCarnada(), healtmonster: lenguajeAB.eBillete(), emas: lenguajeAB.ePinata(), pancingan: lenguajeAB.eGancho(),
+      pancing: lenguajeAB.eCanaPescar(),
        
-      common: lenguajeGB.eCComun(), uncoommon: lenguajeGB.ePComun(), mythic: lenguajeGB.eCMistica(),
-      pet: lenguajeGB.eCMascota(),//?
-      gardenboxs: lenguajeGB.eCJardineria(),//?
-      legendary: lenguajeGB.eClegendaria(),
+      common: lenguajeAB.eCComun(), uncoommon: lenguajeAB.ePComun(), mythic: lenguajeAB.eCMistica(),
+      pet: lenguajeAB.eCMascota(),//?
+      gardenboxs: lenguajeAB.eCJardineria(),//?
+      legendary: lenguajeAB.eClegendaria(),
       
-      anggur: lenguajeGB.eUva(), apel: lenguajeGB.eManzana(), jeruk: lenguajeGB.eNaranja(), mangga: lenguajeGB.eMango(), pisang: lenguajeGB.ePlatano(),
+      anggur: lenguajeAB.eUva(), apel: lenguajeAB.eManzana(), jeruk: lenguajeAB.eNaranja(), mangga: lenguajeAB.eMango(), pisang: lenguajeAB.ePlatano(),
       
-      bibitanggur: lenguajeGB.eSUva(), bibitapel: lenguajeGB.eSManzana(), bibitjeruk: lenguajeGB.eSNaranja(), bibitmangga: lenguajeGB.eSMango(), bibitpisang: lenguajeGB.eSPlatano(),
+      bibitanggur: lenguajeAB.eSUva(), bibitapel: lenguajeAB.eSManzana(), bibitjeruk: lenguajeAB.eSNaranja(), bibitmangga: lenguajeAB.eSMango(), bibitpisang: lenguajeAB.eSPlatano(),
       
-      centaur: lenguajeGB.eCentauro(), griffin: lenguajeGB.eAve(), kucing: lenguajeGB.eGato(), naga: lenguajeGB.eDragon(),
-      fox: lenguajeGB.eZorro(), kuda: lenguajeGB.eCaballo(), phonix: lenguajeGB.eFenix(), wolf: lenguajeGB.eLobo(),
-      anjing: lenguajeGB.ePerro(),
+      centaur: lenguajeAB.eCentauro(), griffin: lenguajeAB.eAve(), kucing: lenguajeAB.eGato(), naga: lenguajeAB.eDragon(),
+      fox: lenguajeAB.eZorro(), kuda: lenguajeAB.eCaballo(), phonix: lenguajeAB.eFenix(), wolf: lenguajeAB.eLobo(),
+      anjing: lenguajeAB.ePerro(),
  
-      petFood: lenguajeGB.eAMascots(), //?
-      makanancentaur: lenguajeGB.eCCentauro(), makanangriffin: lenguajeGB.eCAve(),
-      makanankyubi: lenguajeGB.eCMagica(), makanannaga: lenguajeGB.eCDragon(), makananpet: lenguajeGB.eACaballo(), makananphonix: lenguajeGB.eCFenix()
+      petFood: lenguajeAB.eAMascots(), //?
+      makanancentaur: lenguajeAB.eCCentauro(), makanangriffin: lenguajeAB.eCAve(),
+      makanankyubi: lenguajeAB.eCMagica(), makanannaga: lenguajeAB.eCDragon(), makananpet: lenguajeAB.eACaballo(), makananphonix: lenguajeAB.eCFenix()
 }
 let results = Object.keys(emottt).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string));
 if (!results.length) return '';
